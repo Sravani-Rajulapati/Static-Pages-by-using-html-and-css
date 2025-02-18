@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+    <style>
+        .main{
+            
+            font-family: sans-serif;
+            
+            
+            position: relative;
+            top: 300px;
+            left: 450px;
+        }
+        label{
+            font-size: 30px;
+            color: green;
+        }
+        input{
+            height: 30px;
+            width: 300px;
+        }
+        option{
+            font-size: 20px;
+            color:aqua;
+            width: 250px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <label for="">State</label>
+    <input type="text" list="states">
+    <datalist id="states">
+        <option value="Andhra Pradesh"></option>
+        <option value="Madhya Pradesh"></option>
+        <option value="Utthara Pradesh"></option>
+        <option value="Arunachal Pradesh"></option>
+        <option value="Bihar"></option>
+        <option value="Telangana"></option>
+        <option value="Jammu & Kashmir"></option>
+        <option value="Goa"></option>
+        <option value="Kerala"></option>
+        <option value="Karnataka"></option>
+    </datalist>
+    </div>
+    
+</body>
+</html>

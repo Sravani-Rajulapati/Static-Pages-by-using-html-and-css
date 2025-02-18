@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            
+            animation-name: test;
+            background-color: blueviolet;
+            
+        }
+        .two{
+            animation-name: text;
+            /* background-color: black; */
+        }
+        .one,.two{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            animation-duration: 3s;
+            transition: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes test{
+            from{
+               
+            }
+            to{
+                transform: translateX(400px);
+                background: linear-gradient(to right,pink,red,green,blue,yellow);
+            }
+        }
+        @keyframes text{
+            0%{
+                transform: translateX(1000px);
+                background-color: blueviolet;
+
+            }
+            25%{
+                background-color: red;
+            }
+            50%{
+                border-radius: 10px;
+                background-color: aqua;
+                transform: translateY(100px);
+            }
+            75%{
+                background-color: blue;
+            }
+            100%{
+                /* transform: translateX(20%); */
+                background-color: chartreuse;
+                /* transform: translateY(100px); */
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div><br><br><br>
+    <div class="two"></div>
+
+    animation-name is used to give animation name to apply effects
+</body>
+</html>

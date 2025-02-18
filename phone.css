@@ -1,0 +1,84 @@
+body{
+    background-image: url("/waves-circles-109964_1280.jpeg");
+    background-size: cover;
+    color: white;
+}
+.time{
+    color: white;
+    display: flex;
+    align-items: center;
+    line-height: 1px;
+    flex-direction: column;
+}
+.thur{
+    font-size: 50px;
+}
+.ten{
+    margin-top: 15px;
+    font-size:100px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#one{
+    margin-top: -50px;
+    position: relative;
+    top: -100px;
+
+}
+.two{
+    margin-bottom: 170px;
+    margin-top: -120px;
+}
+#two{
+    margin-left: 70px;
+    position: relative;
+    top: -600px;
+    padding: 50px;
+}
+@media(max-width:850px){
+    .time{
+        margin-top: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .ten{
+        font-size: 50px;
+    }
+    .thur{
+        font-size: 15px;
+    }
+    #one{
+        display: flex;
+        flex-direction: row;
+        margin-top: 400px;
+        justify-content: space-around;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 5px;
+    }
+    
+    #two{
+        
+        margin-top: 590px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        
+        flex-direction: row;
+        margin-left: -55px;
+    }
+    img{
+        /* margin-left: 10px; */
+        width: 40px;
+        height: 40px;
+    }
+
+}

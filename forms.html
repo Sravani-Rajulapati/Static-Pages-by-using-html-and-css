@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .form{
+            text-align: left;
+            color: transparent;
+            background: linear-gradient(to right,rgb(171, 4, 171),navy,orange,black,yellow,blue,red,aqua);
+            background-clip: text;
+        }
+        form{
+            font-family: sans-serif;
+            border: 2px solid green;
+            border-radius: 10px;
+            padding: 30px;
+            width: fit-content !important;
+            margin-left: 50px;width: 300px;
+            height: fit-content;
+            text-align: center;
+        }
+        legend{
+            color: blue;
+            font-size: 30px;
+        }
+        input{
+            font-size: 20px;
+        }
+        label{
+            font-size: 20px;
+        }
+        radio{
+            font-size: 20px !important;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            margin-left: 150px;
+            background-color: green;
+        }
+        select{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form style="" action="www.google.com">
+
+            <legend><b>Register</b></legend>
+            <br>
+            <div class="form">
+                <label for="first name">First name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <br>
+            <br>
+            <label for="last name">Last name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <br>
+            <br>
+            <label for="Phone">Phone number</label>
+            <input type="tel">
+            <br>
+            <br>
+            <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email">
+            <br>
+            <br>
+            <label for="Gender">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <label for="">male<input type="radio" id="Gender" name="Gender"></label>
+            <label for="">female<input type="radio"  id="Gender" name="Gender"></label> 
+            <label for="">others<input type="radio" id="Gender" name="Gender"></label>
+            <br>
+            <br>
+            <label for="details">Qualification</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="">Bachlors of technology</option>
+                <option value="">Post Graduation</option>
+                <option value="">Degree</option>
+                <option value="">Diploma</option>
+            </select>
+            <br>
+            <br>
+            <label for="hobbies">Hobbies</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Playing<input type="checkbox"></label>
+            <label for="">Reading<input type="checkbox"></label>
+            <label for="">Watching<input type="checkbox"></label>
+            <br>
+            <br>
+            <input type="file"><br><br>
+            <button>Submit</button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>

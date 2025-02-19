@@ -1,0 +1,168 @@
+.main{
+    background-image: url("/girl-1098612_1280.jpg") ;
+    color:white;
+    background-size: cover;
+    /* opacity: 0.6; */
+    
+    height: 100vh;
+    
+    
+}
+span{
+    color: red;
+    font-size: 40px;
+    /* opacity: 1; */
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.port{
+    font-size: 40px;
+    margin: 30px 50px 0px 70px;
+    font-family: fantasy;
+}
+.nav1{
+    margin: 40px 50px 0px 70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.but{
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    border-radius: 5PX;
+    margin: 30px 70px 0px 70px;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-transform: capitalize;
+}
+p{
+    text-transform: capitalize;
+    line-height: 30px;
+    width: 90%;
+    font-size: 18px;
+
+}
+h1{
+    line-height: 20px;
+    
+    font-size: 60px;
+}
+.but1{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: none;
+    text-transform: capitalize;
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+}
+.content{
+    /* border: 2px solid white; */
+    margin: 120px 0px 0px 80px;
+
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+}
+ @media screen and (max-width:375px) {
+    
+    span{
+        color: red;
+        font-size: 40px;
+        
+    
+    }
+    .log{
+        margin-right: 10px;
+        /* border: 2px solid aqua; */
+    }
+    .nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .port{
+        font-size: 40px;
+        margin: 10px 0 0 20px;
+        width: 100%;
+        position: relative;
+        left: 90px;
+        font-family: fantasy;
+    }
+    
+    .nav1{
+        margin:20px 0 0 -10px;
+        
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+    
+    a:hover{
+        color: red;
+    }
+    .but{
+        cursor: pointer;
+        border: none;
+        background-color: white;
+        border-radius: 5px;
+        color: black;
+        font-size: 22px;
+        position: relative;
+        left: 50px;
+        padding: 10px 20px 10px 20px;
+        text-transform: capitalize;
+    }
+    p{
+        text-transform: capitalize;
+        line-height: 20px;
+        width: 280px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    h1{
+        line-height: 20px;
+        width: 250px;
+        font-size: 35px;
+    }
+    .but1{
+        cursor: pointer;
+        margin-top: 20px;
+        
+        background-color: white;
+        color: black;
+        font-size: 25px;
+        border: none;
+        text-transform: capitalize;
+        padding: 5px 20px 5px 20px;
+        border-radius: 6px;
+    }
+    .content{
+       
+        margin: 80px 0px 0px 30px;
+    
+        font-family: 'Times New Roman', Times, serif;
+        width: 55%;
+    }
+} 
+
